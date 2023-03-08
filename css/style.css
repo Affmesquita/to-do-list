@@ -55,7 +55,7 @@ input, select {
 
 .to-do-container {
     max-width: 500px;
-    margin: 3rem auto;
+    margin: 3rem auto;  
 
     background-color: #fdfdfd;
     padding: 1.5rem;
@@ -69,12 +69,12 @@ input, select {
 }
 
 
-#todo-form, #edite-form {
+#todo-form, #edit-form {
     padding: 1rem;
     border-bottom: 1px solid #ccc;
 }
 
-#todo-form p, #edite-form {
+#todo-form p, #edit-form {
     margin-bottom: 0.5rem;
     font-weight: bold;
 }
@@ -83,12 +83,13 @@ input, select {
     display: flex;
 }
 
-.form-control {
+.form-control input {
     margin-right: .3rem;
 }
 
 #cancel-edit-btn {
     margin-top: 1rem;
+
 }
 
 #toolbar {
